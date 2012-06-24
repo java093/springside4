@@ -10,9 +10,9 @@ import org.springside.modules.test.functional.JettyFactory;
  */
 public class MiniWebServer {
 
-	public static final int PORT = 8080;
+	public static final int PORT = 9080;
 	public static final String CONTEXT = "/mini-web";
-	public static final String BASE_URL = "http://localhost:8080/mini-web";
+	public static final String BASE_URL = "http://localhost:9080/mini-web";
 
 	public static void main(String[] args) throws Exception {
 		//设定Spring的profile
